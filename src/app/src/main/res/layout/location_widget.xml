@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/widget_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="11sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:alpha="0.8"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Grid Locator Display -->
+    <TextView
+        android:id="@+id/widget_grid_locator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JO65VM"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp" />
+
+    <!-- Last Updated Time -->
+    <TextView
+        android:id="@+id/widget_last_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated: --:--"
+        android:textSize="9sp"
+        android:textColor="@color/white"
+        android:alpha="0.7"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Refresh Button -->
+    <TextView
+        android:id="@+id/widget_refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="↻ Refresh"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:padding="6dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="#40FFFFFF" />
+
+</LinearLayout>

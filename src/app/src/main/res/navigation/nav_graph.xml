@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="dk.seahawk.locator.ui.fragment.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="dk.seahawk.locator.ui.fragment.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="dk.seahawk.locator.ui.fragment.SettingsFragment"
+        android:label="@string/settings_fragment_label"
+        tools:layout="@layout/fragment_settings">
+
+        <action
+            android:id="@+id/action_SettingsFragment_to_HelpFragment"
+            app:destination="@id/HelpFragment" />
+        <action
+            android:id="@+id/action_SettingsFragment_to_AboutFragment"
+            app:destination="@id/AboutFragment" />
+    </fragment>
+
+    <!-- Help Fragment -->
+    <fragment
+        android:id="@+id/HelpFragment"
+        android:name="dk.seahawk.locator.ui.fragment.HelpFragment"
+        android:label="@string/title_user_manual"
+        tools:layout="@layout/fragment_help" />
+
+    <!-- About Fragment -->
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="dk.seahawk.locator.ui.fragment.AboutFragment"
+        android:label="@string/title_about"
+        tools:layout="@layout/fragment_about" />
+
+    <!-- Global action to settings from any fragment -->
+    <action
+        android:id="@+id/action_global_settingsFragment"
+        app:destination="@id/SettingsFragment" />
+</navigation>

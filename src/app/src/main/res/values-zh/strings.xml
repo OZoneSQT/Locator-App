@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">定位器</string>
+    <string name="action_settings">设置</string>
+
+    <!-- Fragment Labels -->
+    <string name="first_fragment_label">当前位置</string>
+    <string name="second_fragment_label">位置历史</string>
+
+    <!-- FirstFragment - Current Location Screen -->
+    <string name="label_grid_locator">当前电网定位器:</string>
+    <string name="label_local_time">本地时间:</string>
+    <string name="label_utc_time">UTC时间:</string>
+    <string name="label_height">高度:</string>
+    <string name="button_save_location">保存位置</string>
+    <string name="button_view_history">查看历史</string>
+    <string name="button_refresh_location">刷新位置</string>
+    <string name="status_initial">点击\'保存位置\'以获取当前位置</string>
+    <string name="status_getting_location">正在获取位置…</string>
+    <string name="status_saved">位置已保存!</string>
+    <string name="status_saved_last_known">位置已保存（最后已知位置）</string>
+    <string name="status_unable">无法获取位置</string>
+    <string name="status_permission_denied">权限被拒绝</string>
+    <string name="last_location_loaded">已加载最后位置</string>
+    <string name="placeholder_value">--</string>
+
+    <!-- SecondFragment - History Screen -->
+    <string name="header_history">位置历史</string>
+    <string name="button_back">返回</string>
+    <string name="button_delete">删除</string>
+    <string name="button_open_maps">在地图中打开</string>
+    <string name="confirm_delete_title">删除位置</string>
+    <string name="confirm_delete_message">您确定要删除此位置吗？</string>
+    <string name="button_cancel">取消</string>
+    <string name="location_deleted">位置已删除</string>
+    <string name="empty_state_message">还没有保存的位置。\n返回并保存您的第一个位置！</string>
+
+    <!-- Location History Item Labels -->
+    <string name="label_gps">GPS:</string>
+    <string name="label_height_short">高度:</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_permission_denied">位置权限被拒绝</string>
+    <string name="toast_unable_get_location">无法获取位置</string>
+    <string name="toast_error_getting_location">获取位置时出错</string>
+
+    <!-- Navigation -->
+    <string name="next">下一步</string>
+    <string name="previous">上一步</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_label">设置</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_call_sign">用户呼号</string>
+    <string name="settings_call_sign_hint">输入您的无线电呼号（例如：OZ1ABC）</string>
+    <string name="settings_call_sign_saved">呼号已保存</string>
+    <string name="settings_temperature_unit">温度单位</string>
+    <string name="button_done">完成</string>
+
+    <!-- Language Options -->
+    <string name="language_english_us">English (US)</string>
+    <string name="language_english_gb">English (UK)</string>
+    <string name="language_danish">Dansk (Danish)</string>
+    <string name="language_german">Deutsch (German)</string>
+    <string name="language_spanish">Español (Spanish)</string>
+    <string name="language_portuguese">Português (Portuguese)</string>
+    <string name="language_french">Français (French)</string>
+    <string name="language_russian">Русский (Russian)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_chinese">中文 (Chinese)</string>
+
+    <!-- Temperature Unit Options -->
+    <string name="temp_unit_celsius">摄氏度 (°C)</string>
+    <string name="temp_unit_fahrenheit">华氏度 (°F)</string>
+
+    <!-- Weather -->
+    <string name="weather_title">天气</string>
+    <string name="weather_temperature">温度</string>
+    <string name="weather_humidity">湿度</string>
+    <string name="weather_pressure">气压</string>
+    <string name="weather_wind_speed">风速</string>
+    <string name="weather_description">状况</string>
+    <string name="weather_fetching">正在获取天气…</string>
+    <string name="weather_no_data">无天气数据</string>
+    <string name="weather_api_key_missing">未配置天气API密钥</string>
+
+    <!-- Widget -->
+    <string name="widget_description">显示您当前的网格定位器</string>
+    <string name="widget_loading">正在加载…</string>
+    <string name="widget_no_location">无位置</string>
+    <string name="widget_updated">更新时间: %1$s</string>
+
+    <!-- Export -->
+    <string name="menu_export">导出到云端硬盘</string>
+    <string name="export_title">导出位置历史</string>
+    <string name="export_message">是否将位置历史导出到Google云端硬盘?</string>
+    <string name="export_in_progress">正在导出…</string>
+    <string name="export_success">成功导出到Google云端硬盘</string>
+    <string name="export_error">导出失败: %1$s</string>
+    <string name="export_choose_account">选择Google帐户</string>
+    <string name="export_no_locations">没有位置可导出</string>
+</resources>
+

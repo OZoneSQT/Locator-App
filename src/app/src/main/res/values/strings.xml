@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Locator</string>
+    <string name="app_subtitle">Grid Square Locator</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Fragment Labels -->
+    <string name="first_fragment_label">Locator</string>
+    <string name="second_fragment_label">Location History</string>
+
+    <!-- FirstFragment - Current Location Screen -->
+    <string name="label_grid_locator">Current Grid Locator:</string>
+    <string name="label_local_time">Local Time:</string>
+    <string name="label_utc_time">UTC Time:</string>
+    <string name="label_height">Height:</string>
+    <string name="button_save_location">Save Location</string>
+    <string name="button_view_history">View History</string>
+    <string name="button_refresh_location">Refresh Location</string>
+    <string name="status_initial">Tap \'Save Location\' to get current location</string>
+    <string name="status_getting_location">Getting location…</string>
+    <string name="status_saved">Location saved!</string>
+    <string name="status_saved_last_known">Location saved (last known)</string>
+    <string name="status_unable">Unable to get location</string>
+    <string name="status_permission_denied">Permission denied</string>
+    <string name="status_refreshed">Location refreshed</string>
+    <string name="last_location_loaded">Last location loaded</string>
+    <string name="placeholder_value">--</string>
+
+    <!-- SecondFragment - History Screen -->
+    <string name="header_history">Location History</string>
+    <string name="button_back">Back</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_open_maps">Open in Maps</string>
+    <string name="confirm_delete_title">Delete Location</string>
+    <string name="confirm_delete_message">Are you sure you want to delete this location?</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="location_deleted">Location deleted</string>
+    <string name="empty_state_message">No saved locations yet.\nGo back and save your first location!</string>
+
+    <!-- Location History Item Labels -->
+    <string name="label_gps">GPS:</string>
+    <string name="label_height_short">Height:</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_permission_denied">Location permission denied</string>
+    <string name="toast_unable_get_location">Unable to get location</string>
+    <string name="toast_error_getting_location">Error getting location</string>
+
+    <!-- Navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_label">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_call_sign">User Call Sign</string>
+    <string name="settings_call_sign_hint">Enter your radio call sign (e.g., OZ1ABC)</string>
+    <string name="settings_call_sign_saved">Call sign saved</string>
+    <string name="settings_temperature_unit">Temperature Unit</string>
+    <string name="button_done">Done</string>
+
+    <!-- Language Options -->
+    <string name="language_english_us">English (US)</string>
+    <string name="language_english_gb">English (UK)</string>
+    <string name="language_danish">Dansk (Danish)</string>
+    <string name="language_german">Deutsch (German)</string>
+    <string name="language_spanish">Español (Spanish)</string>
+    <string name="language_portuguese">Português (Portuguese)</string>
+    <string name="language_french">Français (French)</string>
+    <string name="language_russian">Русский (Russian)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_chinese">中文 (Chinese)</string>
+
+    <!-- Temperature Unit Options -->
+    <string name="temp_unit_celsius">Celsius (°C)</string>
+    <string name="temp_unit_fahrenheit">Fahrenheit (°F)</string>
+
+    <!-- Weather -->
+    <string name="weather_title">Weather</string>
+    <string name="weather_temperature">Temperature</string>
+    <string name="weather_humidity">Humidity</string>
+    <string name="weather_pressure">Pressure</string>
+    <string name="weather_wind_speed">Wind Speed</string>
+    <string name="weather_description">Conditions</string>
+    <string name="weather_fetching">Getting weather…</string>
+    <string name="weather_no_data">No weather data</string>
+    <string name="weather_api_key_missing">Weather API key not configured</string>
+    <string name="weather_format">\uD83C\uDF21\uFE0F %1$s | \uD83D\uDCA7 %2$d%% | \uD83D\uDCA8 %3$.1f m/s | %4$s</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Shows your current grid locator</string>
+    <string name="widget_loading">Loading…</string>
+    <string name="widget_no_location">No location</string>
+    <string name="widget_updated">Updated: %1$s</string>
+    <string name="widget_refresh_label">↻ %1$s</string>
+
+    <!-- Export -->
+    <string name="menu_export">Export to Drive</string>
+    <string name="export_title">Export Location History</string>
+    <string name="export_message">Export your location history to Google Drive?</string>
+    <string name="export_in_progress">Exporting…</string>
+    <string name="export_success">Successfully exported to Google Drive</string>
+    <string name="export_error">Export failed: %1$s</string>
+    <string name="export_choose_account">Choose Google Account</string>
+    <string name="export_no_locations">No locations to export</string>
+
+    <!-- User Manual & About -->
+    <string name="menu_help">Help &amp; Manual</string>
+    <string name="menu_about">About</string>
+    <string name="title_user_manual">User Manual</string>
+    <string name="title_about">About Locator</string>
+
+    <!-- User Manual Content -->
+    <string name="manual_overview_title">Overview</string>
+    <string name="manual_overview">Locator is a comprehensive location tracking and documentation app designed for radio enthusiasts, field operators, and anyone who needs to track and export location data.</string>
+
+    <string name="manual_features_title">Key Features</string>
+    <string name="manual_features">• GPS Location Tracking: Get accurate coordinates with altitude
+• Maidenhead Grid Locator: Automatic grid square calculation
+• Location History: Save and manage multiple locations
+• Weather Data: Automatic weather capture from device sensors
+• Multi-language Support: 10 languages available
+• Google Drive Backup: Export your history to Google Drive
+• Home Screen Widget: Quick access to current location
+• Temperature Unit Preference: Choose Celsius or Fahrenheit
+• User Call Sign: Save your radio callsign with locations</string>
+
+    <string name="manual_permissions_title">Required Permissions &amp; Privacy</string>
+    <string name="manual_permissions">• Location (Fine &amp; Coarse): For GPS tracking
+  - REQUIRED for getting location coordinates
+
+• Internet: Used ONLY for Google Drive export functionality
+  - REQUIRED for cloud backup features
+
+• Sensors (optional): For weather data collection
+  - Temperature, humidity, pressure sensors
+  - Not required but enhances functionality
+
+**Privacy Commitment:** This app does not collect any statistics, analytics, or user data. All location history is stored locally on your device unless you explicitly choose to export it to your own Google Drive. Internet access is exclusively used for the export feature and weather data retrieval.</string>
+
+    <string name="manual_how_to_use_title">How to Use</string>
+    <string name="manual_how_to_use">1. SAVE LOCATION
+   - Press "Save Location" button
+   - App gets GPS coordinates and grid locator
+   - Weather data is automatically captured
+   - Location is saved to history with timestamp
+
+2. REFRESH LOCATION
+   - Press "Refresh Location" to get new reading
+   - Location is displayed but NOT saved
+   - Useful for checking current position
+
+3. VIEW HISTORY
+   - Press "View History" to see saved locations
+   - Each entry shows grid locator, coordinates, and weather
+   - Tap "Open in Maps" to view location in Google Maps
+   - Tap "Delete" to remove individual locations
+
+4. EXPORT TO GOOGLE DRIVE
+   - Go to Settings → Export to Drive
+   - Choose your Google account
+   - Location history is backed up as text file
+   - Files saved in "Locator Backups" folder
+
+5. HOME SCREEN WIDGET
+   - Add widget to home screen
+   - Shows current grid locator
+   - Tap refresh button for new reading
+   - Tap grid locator to open app
+
+6. SETTINGS
+   - Change Language: Select from 10 languages
+   - Temperature Unit: Switch between Celsius/Fahrenheit
+   - User Call Sign: Enter your radio callsign
+   - Export to Drive: Backup your location history</string>
+
+    <string name="manual_tips_title">Tips &amp; Tricks</string>
+    <string name="manual_tips">• Add the widget to your home screen for quick access
+• Export your locations regularly to Google Drive
+• Use call sign to identify your locations in radio logs
+• Check weather data for field operation planning
+• The refresh button updates without saving history
+• Grid locators help radio operators locate each other
+• All locations are stored locally on your device</string>
+
+    <!-- About Section -->
+    <string name="about_app_name">Locator</string>
+    <string name="about_version">Version %1$s (Build %2$d)</string>
+    <string name="about_developer">Developer: OZ1SQT</string>
+    <string name="about_description">A comprehensive location tracking and documentation app for radio enthusiasts and field operators.</string>
+    <string name="about_copyright">© 2026 OZ1SQT. All rights reserved.</string>
+    <string name="about_license">Open Source License</string>
+
+    <string name="about_features_header">Features:</string>
+    <string name="about_features_list">✓ GPS Location Tracking
+✓ Maidenhead Grid Locator Calculation
+✓ Location History Management
+✓ Weather Data Integration
+✓ Google Drive Backup
+✓ Home Screen Widget
+✓ Multi-language Support (10 languages)
+✓ Temperature Unit Selection
+✓ Radio Call Sign Support</string>
+
+    <string name="about_permissions_header">Permissions &amp; Privacy:</string>
+    <string name="about_permissions_list">• Location (Fine &amp; Coarse)
+• Internet (ONLY for GDrive export &amp; weather)
+• Hardware Sensors (Temperature, Humidity, Pressure)
+• NO statistics or analytics collection</string>
+
+    <string name="about_support">For support and feature requests, visit the project page.</string>
+    <string name="grid_placeholder">------</string>
+</resources>

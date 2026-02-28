@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Локатор</string>
+    <string name="action_settings">Настройки</string>
+
+    <!-- Fragment Labels -->
+    <string name="first_fragment_label">Текущее местоположение</string>
+    <string name="second_fragment_label">История местоположений</string>
+
+    <!-- FirstFragment - Current Location Screen -->
+    <string name="label_grid_locator">Текущий локатор сети:</string>
+    <string name="label_local_time">Местное время:</string>
+    <string name="label_utc_time">Время UTC:</string>
+    <string name="label_height">Высота:</string>
+    <string name="button_save_location">Сохранить местоположение</string>
+    <string name="button_view_history">Показать историю</string>
+    <string name="button_refresh_location">Обновить местоположение</string>
+    <string name="status_initial">Нажмите \'Сохранить местоположение\', чтобы получить текущее местоположение</string>
+    <string name="status_getting_location">Определение местоположения…</string>
+    <string name="status_saved">Местоположение сохранено!</string>
+    <string name="status_saved_last_known">Местоположение сохранено (последнее известное)</string>
+    <string name="status_unable">Невозможно определить местоположение</string>
+    <string name="status_permission_denied">Доступ запрещён</string>
+    <string name="last_location_loaded">Последнее местоположение загружено</string>
+    <string name="placeholder_value">--</string>
+
+    <!-- SecondFragment - History Screen -->
+    <string name="header_history">История местоположений</string>
+    <string name="button_back">Назад</string>
+    <string name="button_delete">Удалить</string>
+    <string name="button_open_maps">Открыть в картах</string>
+    <string name="confirm_delete_title">Удалить местоположение</string>
+    <string name="confirm_delete_message">Вы уверены, что хотите удалить это местоположение?</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="location_deleted">Местоположение удалено</string>
+    <string name="empty_state_message">Пока нет сохранённых местоположений.\nВернитесь и сохраните своё первое местоположение!</string>
+
+    <!-- Location History Item Labels -->
+    <string name="label_gps">GPS:</string>
+    <string name="label_height_short">Высота:</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_permission_denied">Доступ к местоположению запрещён</string>
+    <string name="toast_unable_get_location">Невозможно определить местоположение</string>
+    <string name="toast_error_getting_location">Ошибка при определении местоположения</string>
+
+    <!-- Navigation -->
+    <string name="next">Далее</string>
+    <string name="previous">Назад</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_label">Настройки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_call_sign">Позывной пользователя</string>
+    <string name="settings_call_sign_hint">Введите свой позывной (например, OZ1ABC)</string>
+    <string name="settings_call_sign_saved">Позывной сохранён</string>
+    <string name="settings_temperature_unit">Единица температуры</string>
+    <string name="button_done">Готово</string>
+
+    <!-- Language Options -->
+    <string name="language_english_us">English (US)</string>
+    <string name="language_english_gb">English (UK)</string>
+    <string name="language_danish">Dansk (Danish)</string>
+    <string name="language_german">Deutsch (German)</string>
+    <string name="language_spanish">Español (Spanish)</string>
+    <string name="language_portuguese">Português (Portuguese)</string>
+    <string name="language_french">Français (French)</string>
+    <string name="language_russian">Русский (Russian)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_chinese">中文 (Chinese)</string>
+
+    <!-- Temperature Unit Options -->
+    <string name="temp_unit_celsius">Цельсий (°C)</string>
+    <string name="temp_unit_fahrenheit">Фаренгейт (°F)</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Показывает ваш текущий grid locator</string>
+    <string name="widget_loading">Загрузка…</string>
+    <string name="widget_no_location">Нет местоположения</string>
+    <string name="widget_updated">Обновлено: %1$s</string>
+
+    <!-- Export -->
+    <string name="menu_export">Экспортировать на Drive</string>
+    <string name="export_title">Экспортировать историю местоположений</string>
+    <string name="export_message">Экспортировать историю местоположений на Google Drive?</string>
+    <string name="export_in_progress">Экспортирование…</string>
+    <string name="export_success">Успешно экспортировано на Google Drive</string>
+    <string name="export_error">Ошибка экспорта: %1$s</string>
+    <string name="export_choose_account">Выберите учетную запись Google</string>
+    <string name="export_no_locations">Нет местоположений для экспорта</string>
+</resources>

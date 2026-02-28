@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Locador</string>
+    <string name="action_settings">Configuración</string>
+
+    <!-- Fragment Labels -->
+    <string name="first_fragment_label">Locador</string>
+    <string name="second_fragment_label">Historial de ubicaciones</string>
+
+    <!-- FirstFragment - Current Location Screen -->
+    <string name="label_grid_locator">Localizador de red actual:</string>
+    <string name="label_local_time">Hora local:</string>
+    <string name="label_utc_time">Hora UTC:</string>
+    <string name="label_height">Altura:</string>
+    <string name="button_save_location">Guardar ubicación</string>
+    <string name="button_view_history">Ver historial</string>
+    <string name="button_refresh_location">Actualizar ubicación</string>
+    <string name="status_initial">Toca \'Guardar ubicación\' para obtener la ubicación actual</string>
+    <string name="status_getting_location">Obteniendo ubicación…</string>
+    <string name="status_saved">¡Ubicación guardada!</string>
+    <string name="status_saved_last_known">Ubicación guardada (última conocida)</string>
+    <string name="status_unable">No se puede obtener la ubicación</string>
+    <string name="status_permission_denied">Permiso denegado</string>
+    <string name="status_refreshed">Ubicación actualizada</string>
+    <string name="last_location_loaded">Última ubicación cargada</string>
+    <string name="placeholder_value">--</string>
+
+    <!-- SecondFragment - History Screen -->
+    <string name="header_history">Historial de ubicaciones</string>
+    <string name="button_back">Atrás</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_open_maps">Abrir en Maps</string>
+    <string name="confirm_delete_title">Eliminar ubicación</string>
+    <string name="confirm_delete_message">¿Estás seguro de que quieres eliminar esta ubicación?</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="location_deleted">Ubicación eliminada</string>
+    <string name="empty_state_message">Aún no hay ubicaciones guardadas.\n¡Vuelve atrás y guarda tu primera ubicación!</string>
+
+    <!-- Location History Item Labels -->
+    <string name="label_gps">GPS:</string>
+    <string name="label_height_short">Altura:</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_permission_denied">Permiso de ubicación denegado</string>
+    <string name="toast_unable_get_location">No se puede obtener la ubicación</string>
+    <string name="toast_error_getting_location">Error al obtener la ubicación</string>
+
+    <!-- Navigation -->
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_label">Configuración</string>
+    <string name="settings_title">Configuración</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_call_sign">Indicativo del usuario</string>
+    <string name="settings_call_sign_hint">Ingresa tu indicativo de radio (p. ej., OZ1ABC)</string>
+    <string name="settings_call_sign_saved">Indicativo guardado</string>
+    <string name="settings_temperature_unit">Unidad de temperatura</string>
+    <string name="button_done">Listo</string>
+
+    <!-- Language Options -->
+    <string name="language_english_us">English (US)</string>
+    <string name="language_english_gb">English (UK)</string>
+    <string name="language_danish">Dansk (Danish)</string>
+    <string name="language_german">Deutsch (German)</string>
+    <string name="language_spanish">Español (Spanish)</string>
+    <string name="language_portuguese">Português (Portuguese)</string>
+    <string name="language_french">Français (French)</string>
+    <string name="language_russian">Русский (Russian)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_chinese">中文 (Chinese)</string>
+
+    <!-- Temperature Unit Options -->
+    <string name="temp_unit_celsius">Celsius (°C)</string>
+    <string name="temp_unit_fahrenheit">Fahrenheit (°F)</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Muestra tu grid locator actual</string>
+    <string name="widget_loading">Cargando…</string>
+    <string name="widget_no_location">Sin ubicación</string>
+    <string name="widget_updated">Actualizado: %1$s</string>
+
+    <!-- Export -->
+    <string name="menu_export">Exportar a Drive</string>
+    <string name="export_title">Exportar historial de ubicaciones</string>
+    <string name="export_message">¿Exportar tu historial de ubicaciones a Google Drive?</string>
+    <string name="export_in_progress">Exportando…</string>
+    <string name="export_success">Se exportó exitosamente a Google Drive</string>
+    <string name="export_error">Error en exportación: %1$s</string>
+    <string name="export_choose_account">Elegir cuenta de Google</string>
+    <string name="export_no_locations">No hay ubicaciones para exportar</string>
+
+    <!-- User Manual & About -->
+    <string name="menu_help">Ayuda y Manual</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="title_user_manual">Manual de usuario</string>
+    <string name="title_about">Acerca de Locator</string>
+
+    <!-- User Manual Content -->
+    <string name="manual_overview_title">Visión general</string>
+    <string name="manual_overview">Locator es una aplicación integral de seguimiento y documentación de ubicación diseñada para entusiastas de la radio, operadores de campo y cualquier persona que necesite rastrear y exportar datos de ubicación.</string>
+
+    <string name="manual_features_title">Características clave</string>
+    <string name="manual_features">• Seguimiento de ubicación GPS: obtenga coordenadas precisas con altitud\n• Maidenhead Grid Locator: cálculo automático de cuadrícula\n• Historial de ubicaciones: guarde y administre múltiples ubicaciones\n• Datos meteorológicos: captura automática del clima desde los sensores del dispositivo\n• Soporte multilingüe: 10 idiomas disponibles\n• Copia de seguridad en Google Drive: exporte su historial a Google Drive\n• Widget de pantalla de inicio: acceso rápido a la ubicación actual\n• Preferencia de unidad de temperatura: elija Celsius o Fahrenheit\n• Indicativo de usuario: guarde su indicativo de radio con las ubicaciones</string>
+
+    <string name="manual_permissions_title">Permisos requeridos y privacidad</string>
+    <string name="manual_permissions">• Ubicación (fina y gruesa): para rastreo GPS\n  - REQUERIDO para obtener coordenadas de ubicación\n\n• Internet: usado SOLO para la funcionalidad de exportación a Google Drive\n  - REQUERIDO para funciones de copia de seguridad en la nube\n\n• Sensores (opcional): para la recopilación de datos meteorológicos\n  - Sensores de temperatura, humedad, presión\n  - No es obligatorio pero mejora la funcionalidad\n\n**Compromiso de privacidad:** Esta aplicación no recopila estadísticas, análisis ni datos de usuario. Todo el historial de ubicaciones se almacena localmente en su dispositivo a menos que elija explícitamente exportarlo a su propio Google Drive. El acceso a Internet se utiliza exclusivamente para la función de exportación y la recuperación de datos meteorológicos.</string>
+
+    <string name="manual_how_to_use_title">Cómo utilizar</string>
+    <string name="manual_how_to_use">1. GUARDAR UBICACIÓN\n   - Presione el botón "Guardar ubicación"\n   - La aplicación obtiene las coordenadas GPS y el localizador de cuadrícula\n   - Los datos meteorológicos se capturan automáticamente\n   - La ubicación se guarda en el historial con marca de tiempo\n\n2. ACTUALIZAR UBICACIÓN\n   - Presione "Actualizar ubicación" para obtener una nueva lectura\n   - La ubicación se muestra pero NO se guarda\n   - Útil para verificar la posición actual\n\n3. VER HISTORIAL\n   - Presione "Ver historial" para ver las ubicaciones guardadas\n   - Cada entrada muestra el localizador de cuadrícula, las coordenadas y el clima\n   - Toque "Abrir en Maps" para ver la ubicación en Google Maps\n   - Toque "Eliminar" para eliminar ubicaciones individuales\n\n4. EXPORTAR A GOOGLE DRIVE\n   - Vaya a Configuración → Exportar a Drive\n   - Elija su cuenta de Google\n   - El historial de ubicaciones se respalda como archivo de texto\n   - Archivos guardados en la carpeta "Locator Backups"\n\n5. WIDGET DE PANTALLA DE INICIO\n   - Agregue el widget a la pantalla de inicio\n   - Muestra el localizador de cuadrícula actual\n   - Toque el botón de actualización para una nueva lectura\n   - Toque el localizador de cuadrícula para abrir la aplicación\n\n6. CONFIGURACIÓN\n   - Cambiar idioma: seleccione entre 10 idiomas\n   - Unidad de temperatura: cambie entre Celsius/Fahrenheit\n   - Indicativo de usuario: ingrese su indicativo de radio\n   - Exportar a Drive: respalde su historial de ubicaciones</string>
+
+    <string name="manual_tips_title">Consejos y trucos</string>
+    <string name="manual_tips">• Agregue el widget a su pantalla de inicio para un acceso rápido\n• Exporte sus ubicaciones regularmente a Google Drive\n• Use el indicativo para identificar sus ubicaciones en los registros de radio\n• Verifique los datos meteorológicos para la planificación de operaciones de campo\n• El botón de actualización se actualiza sin guardar el historial\n• Los localizadores de cuadrícula ayudan a los operadores de radio a ubicarse entre sí\n• Todas las ubicaciones se almacenan localmente en su dispositivo</string>
+
+    <!-- About Section -->
+    <string name="about_app_name">Locator</string>
+    <string name="about_version">Versión %1$s</string>
+    <string name="about_developer">Desarrollador: OZ1SQT</string>
+    <string name="about_description">Una aplicación integral de seguimiento y documentación de ubicación para entusiastas de la radio y operadores de campo.</string>
+    <string name="about_copyright">© 2026 OZ1SQT. Todos los derechos reservados.</string>
+    <string name="about_license">Licencia de código abierto</string>
+
+    <string name="about_features_header">Características:</string>
+    <string name="about_features_list">✓ Seguimiento de ubicación GPS\n✓ Cálculo de Maidenhead Grid Locator\n✓ Gestión del historial de ubicaciones\n✓ Integración de datos meteorológicos\n✓ Copia de seguridad en Google Drive\n✓ Widget de pantalla de inicio\n✓ Soporte multilingüe (10 idiomas)\n✓ Selección de unidad de temperatura\n✓ Soporte de indicativo de radio</string>
+
+    <string name="about_permissions_header">Permisos y privacidad:</string>
+    <string name="about_permissions_list">• Ubicación (fina y gruesa)\n• Internet (SOLO para exportación a GDrive y clima)\n• Sensores de hardware (temperatura, humedad, presión)\n• SIN recopilación de estadísticas o análisis</string>
+
+    <string name="about_support">Para soporte y solicitudes de funciones, visite la página del proyecto.</string>
+</resources>

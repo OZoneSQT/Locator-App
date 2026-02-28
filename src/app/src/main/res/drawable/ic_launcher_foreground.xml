@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Globe Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+
+    <!-- Longitude Lines (Vertical Arcs) - Elliptical Projection for Equal Spacing -->
+    <!-- Center Line -->
+    <path
+        android:pathData="M54,24 L54,84"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+
+    <!-- Left Arcs (Widths: 7.5, 15, 22.5) -->
+    <path
+        android:pathData="M54,24 A7.5,30 0 0,0 54,84"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+    <path
+        android:pathData="M54,24 A15,30 0 0,0 54,84"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+    <path
+        android:pathData="M54,24 A22.5,30 0 0,0 54,84"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+
+    <!-- Right Arcs (Widths: 7.5, 15, 22.5) -->
+    <path
+        android:pathData="M54,24 A7.5,30 0 0,1 54,84"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+    <path
+        android:pathData="M54,24 A15,30 0 0,1 54,84"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+    <path
+        android:pathData="M54,24 A22.5,30 0 0,1 54,84"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+
+    <!-- Latitude Lines (Horizontal Arcs) -->
+    <path
+        android:pathData="M24,54 L84,54"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+    <path
+        android:pathData="M28,40 Q54,45 80,40"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+    <path
+        android:pathData="M28,68 Q54,63 80,68"
+        android:strokeWidth="1.2"
+        android:strokeColor="#2D5A7B" />
+
+    <!-- Locator Point / Pin -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M54,44 c-2.2,0 -4,1.8 -4,4 c0,3 4,8 4,8 s4,-5 4,-8 C58,45.8 56.2,44 54,44z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,47 a1,1 0 1,0 0,2 a1,1 0 1,0 0,-2z" />
+</vector>

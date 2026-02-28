@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lokator</string>
+    <string name="action_settings">Indstillinger</string>
+
+    <!-- Fragment Labels -->
+    <string name="first_fragment_label">Lokator</string>
+    <string name="second_fragment_label">Placeringshistorik</string>
+
+    <!-- FirstFragment - Current Location Screen -->
+    <string name="label_grid_locator">Aktuel gitter-Locator:</string>
+    <string name="label_local_time">Lokal tid:</string>
+    <string name="label_utc_time">UTC-tid:</string>
+    <string name="label_height">Højde:</string>
+    <string name="button_save_location">Gem placering</string>
+    <string name="button_view_history">Vis historik</string>
+    <string name="button_refresh_location">Opdater placering</string>
+    <string name="status_initial">Tryk på \'Gem placering\' for at få nuværende placering</string>
+    <string name="status_getting_location">Henter placering…</string>
+    <string name="status_saved">Placering gemt!</string>
+    <string name="status_saved_last_known">Placering gemt (sidst kendte)</string>
+    <string name="status_unable">Kan ikke hente placering</string>
+    <string name="status_permission_denied">Tilladelse nægtet</string>
+    <string name="last_location_loaded">Sidste placering indlæst</string>
+    <string name="placeholder_value">--</string>
+
+    <!-- SecondFragment - History Screen -->
+    <string name="header_history">Placeringshistorik</string>
+    <string name="button_back">Tilbage</string>
+    <string name="button_delete">Slet</string>
+    <string name="button_open_maps">Åbn i Maps</string>
+    <string name="confirm_delete_title">Slet placering</string>
+    <string name="confirm_delete_message">Er du sikker på, at du vil slette denne placering?</string>
+    <string name="button_cancel">Annuller</string>
+    <string name="location_deleted">Placering slettet</string>
+    <string name="empty_state_message">No saved locations yet.\nGo back and save your first location!</string>
+
+    <!-- Location History Item Labels -->
+    <string name="label_gps">GPS:</string>
+    <string name="label_height_short">Højde:</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_permission_denied">Placeringstilladelse nægtet</string>
+    <string name="toast_unable_get_location">Kan ikke hente placering</string>
+    <string name="toast_error_getting_location">Fejl ved hentning af placering</string>
+
+    <!-- Navigation -->
+    <string name="next">Næste</string>
+    <string name="previous">Forrige</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_label">Indstillinger</string>
+    <string name="settings_title">Indstillinger</string>
+    <string name="settings_language">Sprog</string>
+    <string name="settings_call_sign">Brugerkaldtegn</string>
+    <string name="settings_call_sign_hint">Indtast dit radiokaldtegn (f.eks. OZ1ABC)</string>
+    <string name="settings_call_sign_saved">Kaldtegn gemt</string>
+    <string name="settings_temperature_unit">Temperaturenhed</string>
+    <string name="button_done">Færdig</string>
+
+    <!-- Language Options -->
+    <string name="language_english_us">English (US)</string>
+    <string name="language_english_gb">English (UK)</string>
+    <string name="language_danish">Dansk (Danish)</string>
+    <string name="language_german">Deutsch (German)</string>
+    <string name="language_spanish">Español (Spanish)</string>
+    <string name="language_portuguese">Português (Portuguese)</string>
+    <string name="language_french">Français (French)</string>
+    <string name="language_russian">Русский (Russian)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_chinese">中文 (Chinese)</string>
+
+    <!-- Temperature Unit Options -->
+    <string name="temp_unit_celsius">Celsius (°C)</string>
+    <string name="temp_unit_fahrenheit">Fahrenheit (°F)</string>
+
+    <!-- Weather -->
+    <string name="weather_title">Vejr</string>
+    <string name="weather_temperature">Temperatur</string>
+    <string name="weather_humidity">Luftfugtighed</string>
+    <string name="weather_pressure">Tryk</string>
+    <string name="weather_wind_speed">Vindhastighed</string>
+    <string name="weather_description">Forhold</string>
+    <string name="weather_fetching">Henter vejr…</string>
+    <string name="weather_no_data">Ingen vejrdata</string>
+    <string name="weather_api_key_missing">Vejr API-nøgle ikke konfigureret</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Viser din nuværende gitter locator</string>
+    <string name="widget_loading">Indlæser…</string>
+    <string name="widget_no_location">Ingen placering</string>
+    <string name="widget_updated">Opdateret: %1$s</string>
+
+    <!-- Export -->
+    <string name="menu_export">Eksporter til Drive</string>
+    <string name="export_title">Eksporter placeringshistorik</string>
+    <string name="export_message">Eksporter din placeringshistorik til Google Drive?</string>
+    <string name="export_in_progress">Eksporterer…</string>
+    <string name="export_success">Succesfuldt eksporteret til Google Drive</string>
+    <string name="export_error">Eksport mislykkedes: %1$s</string>
+    <string name="export_choose_account">Vælg Google-konto</string>
+    <string name="export_no_locations">Ingen placeringer at eksportere</string>
+
+    <!-- User Manual & About -->
+    <string name="menu_help">Hjælp &amp; Manual</string>
+    <string name="menu_about">Om</string>
+    <string name="title_user_manual">Brugervejledning</string>
+    <string name="title_about">Om Locator</string>
+
+    <!-- User Manual Content -->
+    <string name="manual_overview_title">Oversigt</string>
+    <string name="manual_overview">Locator er en omfattende app til placeringsregistrering og dokumentation designet til radioentusiaster, feltoperatører og alle, der skal registrere og eksportere placeringsdata.</string>
+
+    <string name="manual_features_title">Hovedfunktioner</string>
+    <string name="manual_features">• GPS-placeringsregistrering: Få nøjagtige koordinater med højde
+• Maidenhead Grid Locator: Automatisk gitterberegning
+• Placeringshistorik: Gem og administrer flere placeringer
+• Vejrdata: Automatisk vejrregistrering fra enhedssensorer
+• Understøttelse af flere sprog: 10 sprog
+• Google Drive-sikkerhed: Eksportér din historik til Google Drive
+• Startskærmwidget: Hurtig adgang til nuværende placering
+• Temperaturenhedspræference: Vælg mellem Celsius og Fahrenheit
+• Brugerkaldtegn: Gem dit radiokaldtegn sammen med placeringer</string>
+
+    <string name="manual_permissions_title">Nødvendige tilladelser og privatliv</string>
+    <string name="manual_permissions">• Placering (fin &amp; grov): Til GPS-registrering
+  - PÅKRÆVET for at få placeringskoordinater
+
+• Internet: Bruges KUN til Google Drive-eksport
+  - PÅKRÆVET for cloud-backupfunktioner
+
+• Sensorer (valgfrit): Til vejrdataindsamling
+  - Temperatur-, fugtigheds- og trykfølere
+  - Ikke påkrævet, men forbedrer funktionaliteten
+
+**Privatliv:** Denne app indsamler ingen statistik, analyse oder brugerdata. Al placeringshistorik gemmes lokalt på din enhed, medmindre du eksplicit vælger at eksportere den til dit eget Google Drive. Internetadgang bruges udelukkende til eksportfunktionen og vejrdata.</string>
+
+    <string name="manual_how_to_use_title">Sådan bruges det</string>
+    <string name="manual_how_to_use">1. GEM PLACERING
+   - Tryk på knappen "Gem placering"
+   - App får GPS-koordinater og gitterplacering
+   - Vejrdata registreres automatisk
+   - Placering gemmes i historik med tidsstempel
+
+2. REFRESH LOCATION
+   - Tryk på "Opdater placering" for at få ny aflæsning
+   - Placering vises MEN gemmes IKKE
+   - Nyttig til kontrol af nuværende position
+
+3. VIS HISTORIK
+   - Tryk på "Vis historik" for at se gemte placeringer
+   - Hver post viser gitterplacering, koordinater og vejr
+   - Tryk "Åbn i Maps" for at se placering i Google Maps
+   - Tryk "Slet" for at fjerne individuelle placeringer
+
+4. EKSPORTÉR TIL GOOGLE DRIVE
+   - Gå til Indstillinger → Eksportér til Drive
+   - Vælg din Google-konto
+   - Placeringshistorik sikkerhedskopieres som tekstfil
+   - Filer gemmes i mappen "Locator Backups"
+
+5. STARTSKÆRMWIDGET
+   - Tilføj widget til startskærm
+   - Viser nuværende gitterplacering
+   - Tryk på opfriskningsknap for ny aflæsning
+   - Tryk på gitterplacering for at åbne app
+
+6. INDSTILLINGER
+   - Skift sprog: Vælg fra 10 sprog
+   - Temperaturenhed: Skift mellem Celsius/Fahrenheit
+   - Brugerkaldtegn: Indtast dit radiokaldtegn
+   - Eksportér til Drive: Sikkerhedskopier din placeringshistorik</string>
+
+    <string name="manual_tips_title">Tips &amp; Tricks</string>
+    <string name="manual_tips">• Tilføj widgeten til din startskærm for hurtig adgang
+• Eksportér dine placeringer regelmæssigt til Google Drive
+• Brug kaldtegnet til at identificere dine placeringer i radiologger
+• Tjek vejrdata til planering af feltoperationer
+• Opfriskningsknappen opdaterer uden at gemme historik
+• Gitterplaceringer hjælper radiooperatører med at lokalisere hinanden
+• Alle placeringer lagres lokalt på din enhed</string>
+
+    <!-- About Section -->
+    <string name="about_app_name">Locator</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_developer">Udvikler: OZ1SQT</string>
+    <string name="about_description">En omfattende app til placeringsregistrering og dokumentation for radioentusiaster og feltoperatører.</string>
+    <string name="about_copyright">© 2026 OZ1SQT. Alle rettigheder forbeholdt.</string>
+    <string name="about_license">Open Source License</string>
+
+    <string name="about_features_header">Funktioner:</string>
+    <string name="about_features_list">✓ GPS-placeringsregistrering
+✓ Maidenhead Grid Locator-beregning
+✓ Styring af placeringshistorik
+✓ Vejrdataintegration
+✓ Google Drive-sikkerhed
+✓ Startskærmwidget
+✓ Understøttelse af flere sprog (10 sprog)
+✓ Valg af temperaturenhed
+✓ Radiokaldtegnsstøtte</string>
+
+    <string name="about_permissions_header">Tilladelser og privatliv:</string>
+    <string name="about_permissions_list">• Placering (fin &amp; grov)
+• Internet (KUN til GDrive-eksport &amp; vejr)
+• Hardwaresensorer (temperatur, fugtighed, tryk)
+• INGEN indsamling af statistik eller analyse</string>
+
+    <string name="about_support">For support og funktionsanmodninger kan du besøge projektets side.</string>
+</resources>

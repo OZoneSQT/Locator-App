@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Grid Locator: Flexible height to fill space and enable auto-resizing -->
+    <TextView
+        android:id="@+id/widget_grid_locator"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/grid_placeholder"
+        android:textColor="@color/md_theme_light_primary"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeStepGranularity="1sp" />
+
+    <!-- App Name / Refresh Button: Text is set programmatically via LocationWidgetProvider -->
+    <TextView
+        android:id="@+id/widget_refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textColor="@color/md_theme_light_onSurfaceVariant"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:paddingBottom="2dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

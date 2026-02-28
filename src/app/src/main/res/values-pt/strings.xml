@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localizador</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- Fragment Labels -->
+    <string name="first_fragment_label">Localizador</string>
+    <string name="second_fragment_label">Histórico de localizações</string>
+
+    <!-- FirstFragment - Current Location Screen -->
+    <string name="label_grid_locator">Localizador de grelha atual:</string>
+    <string name="label_local_time">Hora local:</string>
+    <string name="label_utc_time">Hora UTC:</string>
+    <string name="label_height">Altura:</string>
+    <string name="button_save_location">Guardar localização</string>
+    <string name="button_view_history">Ver histórico</string>
+    <string name="button_refresh_location">Atualizar localização</string>
+    <string name="status_initial">Toque em \'Guardar localização\' para obter a localização atual</string>
+    <string name="status_getting_location">A obter localização…</string>
+    <string name="status_saved">Localização guardada!</string>
+    <string name="status_saved_last_known">Localização guardada (última conhecida)</string>
+    <string name="status_unable">Não é possível obter a localização</string>
+    <string name="status_permission_denied">Permissão negada</string>
+    <string name="last_location_loaded">Última localização carregada</string>
+    <string name="placeholder_value">--</string>
+
+    <!-- SecondFragment - History Screen -->
+    <string name="header_history">Histórico de localizações</string>
+    <string name="button_back">Voltar</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_open_maps">Abrir no Maps</string>
+    <string name="confirm_delete_title">Eliminar localização</string>
+    <string name="confirm_delete_message">Tem a certeza de que deseja eliminar esta localização?</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="location_deleted">Localização eliminada</string>
+    <string name="empty_state_message">Ainda não há localizações guardadas.\nVolte e guarde a sua primeira localização!</string>
+
+    <!-- Location History Item Labels -->
+    <string name="label_gps">GPS:</string>
+    <string name="label_height_short">Altura:</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_permission_denied">Permissão de localização negada</string>
+    <string name="toast_unable_get_location">Não é possível obter a localização</string>
+    <string name="toast_error_getting_location">Erro ao obter a localização</string>
+
+    <!-- Navigation -->
+    <string name="next">Seguinte</string>
+    <string name="previous">Anterior</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_label">Configurações</string>
+    <string name="settings_title">Configurações</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_call_sign">Indicativo do utilizador</string>
+    <string name="settings_call_sign_hint">Introduza o seu indicativo de rádio (p. ex., OZ1ABC)</string>
+    <string name="settings_call_sign_saved">Indicativo guardado</string>
+    <string name="settings_temperature_unit">Unidade de temperatura</string>
+    <string name="button_done">Concluído</string>
+
+    <!-- Language Options -->
+    <string name="language_english_us">English (US)</string>
+    <string name="language_english_gb">English (UK)</string>
+    <string name="language_danish">Dansk (Danish)</string>
+    <string name="language_german">Deutsch (German)</string>
+    <string name="language_spanish">Español (Spanish)</string>
+    <string name="language_portuguese">Português (Portuguese)</string>
+    <string name="language_french">Français (French)</string>
+    <string name="language_russian">Русский (Russian)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+    <string name="language_chinese">中文 (Chinese)</string>
+
+    <!-- Temperature Unit Options -->
+    <string name="temp_unit_celsius">Celsius (°C)</string>
+    <string name="temp_unit_fahrenheit">Fahrenheit (°F)</string>
+
+    <!-- Widget -->
+    <string name="widget_description">Mostra o seu grid locator atual</string>
+    <string name="widget_loading">A carregar…</string>
+    <string name="widget_no_location">Sem localização</string>
+    <string name="widget_updated">Atualizado: %1$s</string>
+
+    <!-- Export -->
+    <string name="menu_export">Exportar para Drive</string>
+    <string name="export_title">Exportar histórico de localizações</string>
+    <string name="export_message">Exportar seu histórico de localizações para Google Drive?</string>
+    <string name="export_in_progress">Exportando…</string>
+    <string name="export_success">Exportado com sucesso para Google Drive</string>
+    <string name="export_error">Falha na exportação: %1$s</string>
+    <string name="export_choose_account">Escolher conta do Google</string>
+    <string name="export_no_locations">Nenhuma localização para exportar</string>
+</resources>

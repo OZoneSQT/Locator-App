@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.sensor.temperature" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.ambient_temperature" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.pressure" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.relative_humidity" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Locator">
+
+        <activity
+            android:name="dk.seahawk.locator.ui.activity.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Locator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Light Widget (Dark Text) -->
+        <receiver android:name="dk.seahawk.locator.widget.LocationWidgetProviderLight"
+            android:label="Locator (Light)"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="dk.seahawk.locator.ACTION_UPDATE_WIDGET" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/location_widget_info_light" />
+        </receiver>
+
+        <!-- Dark Widget (Grey Text) -->
+        <receiver android:name="dk.seahawk.locator.widget.LocationWidgetProviderDark"
+            android:label="Locator (Dark)"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="dk.seahawk.locator.ACTION_UPDATE_WIDGET" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/location_widget_info_dark" />
+        </receiver>
+
+        <!-- White Widget (White Text) -->
+        <receiver android:name="dk.seahawk.locator.widget.LocationWidgetProviderWhite"
+            android:label="Locator (White)"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="dk.seahawk.locator.ACTION_UPDATE_WIDGET" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/location_widget_info_white" />
+        </receiver>
+
+    </application>
+
+</manifest>
